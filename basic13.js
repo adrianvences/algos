@@ -25,3 +25,51 @@
 //     console.log(i)
 //   }
 // }
+
+// var x = "nicky"
+// if (x == "gabby") {
+//   return 
+// }
+
+// function rentalCarCost(d) {
+//   // Your solution here
+//   if (d >= 7 ) {
+//     total-=50
+//   }
+//   let total = d * 40;
+//   if(d >=3 ) {
+//     total -=20;
+    
+//   } 
+  
+//   return total;
+// }
+
+// function squareSum(numbers){
+//   let sum = 0;
+//     for(let i = 0; i < numbers.length;i++) {
+//       sum += numbers[i]*numbers[i]
+//     }
+//     return sum
+//   }
+
+// console.log(squareSum([3,3,3]))
+
+// function solution(str){
+//   let reverseString = '';
+//     for (let i = str.length-1; i >=0 ;i--){
+//       reverseString += str[i]
+//     }
+//     return reverseString;
+//   }
+//   console.log(solution('hello'))
+
+  function solution(str){
+    
+      let reverseString = reverse(str);
+      
+      return reverseString;
+    }
+    console.log(solution('hello'))
+
+
