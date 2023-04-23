@@ -11,7 +11,7 @@ function swap (arr, first ,second) {
 function bubbleSort(arr = []) {
   var i,j
   for (var i = 0; i < arr.length;i++) {
-    for (var j = 0; j < arr.length - i -1;j++){
+    for (var j = 0; j < arr.length - 1 ;j++){
       if (arr[j] > arr[j + 1]) {
         swap(arr, j , j+1)
       }
